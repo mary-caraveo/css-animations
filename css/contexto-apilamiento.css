@@ -21,7 +21,6 @@ body {
   z-index: 1;
   height: 450px;
   width: 80px;
-  background: white;
   bottom: 0;
   right: 60px;
 }
@@ -31,7 +30,6 @@ body {
   z-index: 2;
   height: 450px;
   width: 80px;
-  background: white;
   bottom: 0;
   left: 60px;
 }
@@ -53,7 +51,6 @@ body {
   z-index: 4;
   height: 360px;
   width: 80px;
-  background: white;
   bottom: 0;
   left: 20px;
 }
@@ -74,7 +71,6 @@ body {
   z-index: 6;
   height: 250px;
   width: 80px;
-  background: white;
   bottom: 0;
   right: 30px;
 }
@@ -122,4 +118,82 @@ body {
   background: pink;
   border-bottom-right-radius: 30px;
   bottom: 0;
+}
+
+.left-ear--outer {
+  background: white;
+  border-radius: 90%;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  left: 10px;
+}
+
+.left-ear--inner {
+  background: pink;
+  border-radius: 90%;
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  left: 15px;
+  top: 8px;
+}
+
+.right-ear--outer {
+  background: white;
+  border-radius: 90%;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+}
+
+.right-ear--inner {
+  background: pink;
+  border-radius: 90%;
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+.head {
+  background: white;
+  border-radius: 50%;
+  height: 80px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 30px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.head_eye {
+  background: gray;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 15px;
+}
+
+.head_eye--left {
+  left: 30px;
+}
+
+.head_eye--right {
+  right: 30px;
+}
+
+.herb {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  height: 30px;
+  background: linear-gradient(135deg, teal 25%, transparent 25%) -50px 0,
+    linear-gradient(-135deg, teal 25%, transparent 25%) -50px 0;
+  background-size: 35px 50px;
 }
