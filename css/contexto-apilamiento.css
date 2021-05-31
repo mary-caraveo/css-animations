@@ -178,6 +178,18 @@ body {
   height: 15px;
   position: absolute;
   top: 15px;
+  animation-name: blink;
+}
+
+@keyframes blink {
+  0% {
+  }
+
+  5% {
+  }
+
+  10% {
+  }
 }
 
 .head_eye--left {
