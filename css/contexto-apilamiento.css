@@ -166,7 +166,7 @@ body {
   width: 100%;
   left: 0;
   right: 0;
-  top: 30px;
+  top: 20px;
   margin: 0 auto;
   position: absolute;
 }
@@ -179,16 +179,23 @@ body {
   position: absolute;
   top: 15px;
   animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes blink {
   0% {
+    height: 15px;
   }
 
   5% {
+    transform: translate(0px, 2px);
+    height: 1px;
   }
 
   10% {
+    height: 15px;
+    transform: translate(0px, 0px);
   }
 }
 
